@@ -5,10 +5,8 @@ def turn_count (board)
 counter = 0
 # moves through each element of the board array and sets the local variable xo equal to their value as it goes
 board.each do |xo|
-# if each element of the board array "xo" is equal to an "X" or an "O" ...
+# if an element of the board array "xo" is equal to an "X" or an "O" increment the counter by 1
   xo == "X" || xo == "O" ? counter += 1
-# ... increment counter by 1
-    counter += 1
 
 
   end
