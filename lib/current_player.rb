@@ -9,7 +9,7 @@ board.each do |xo|
   xo == "X" || xo == "O" ? counter += 1
 # ... increment counter by 1
     counter += 1
-    
+
 
   end
 # call "counter" variable in order to set the return value of turn_count to the value of "counter"
