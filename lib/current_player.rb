@@ -17,6 +17,6 @@ end
 # define method with one parameter "board"
 def current_player (board)
 # if turn_count return value is divided by 2 has a remainder of 0 return "X" if not return "O"
- turn_count(board).even? ? "X" : "O"
+ turn_count(board).even? == true ? "X" : "O"
 
 end
