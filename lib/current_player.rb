@@ -8,5 +8,5 @@ board.each do |xo|
     end
 
   end
-
+counter
 end
