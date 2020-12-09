@@ -16,7 +16,7 @@ board.each do |xo|
 counter
 end
 
-# define method
+# define method with one parameter "board"
 def current_player (board)
 
 end
